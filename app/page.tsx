@@ -80,7 +80,7 @@ export default function Home() {
               STEM Innovation
             </h3>
             <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-              Build creativity and problem-solving skills.
+              Build creativity and problem-solving skills
             </p>
           </div>
 
