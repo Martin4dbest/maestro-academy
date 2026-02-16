@@ -59,9 +59,15 @@ export default function ContactPage() {
             Send Us a Message
           </h2>
 
-          <form className="space-y-4">
+          {/* Formspree Form */}
+          <form
+            className="space-y-4"
+            action="https://formspree.io/f/mlgwbqlv"
+            method="POST"
+          >
             <input
               type="text"
+              name="name"
               placeholder="Your Name"
               className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-blue-700 placeholder-blue-300 text-sm sm:text-base"
               required
@@ -69,12 +75,14 @@ export default function ContactPage() {
 
             <input
               type="email"
+              name="email"
               placeholder="Your Email"
               className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-blue-700 placeholder-blue-300 text-sm sm:text-base"
               required
             />
 
             <textarea
+              name="message"
               placeholder="Your Message"
               rows={5}
               className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-blue-700 placeholder-blue-300 text-sm sm:text-base"
