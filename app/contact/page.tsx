@@ -63,21 +63,21 @@ export default function ContactPage() {
             <input
               type="text"
               placeholder="Your Name"
-              className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm sm:text-base"
+              className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-blue-700 placeholder-blue-300 text-sm sm:text-base"
               required
             />
 
             <input
               type="email"
               placeholder="Your Email"
-              className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm sm:text-base"
+              className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-blue-700 placeholder-blue-300 text-sm sm:text-base"
               required
             />
 
             <textarea
               placeholder="Your Message"
               rows={5}
-              className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm sm:text-base"
+              className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-blue-700 placeholder-blue-300 text-sm sm:text-base"
               required
             />
 
