@@ -19,7 +19,7 @@ function NavLinks({
     <>
       <Link href="/" className={linkStyle} onClick={handleClick}>Home</Link>
       <Link href="/gallery" className={linkStyle} onClick={handleClick}>Gallery</Link>
-      <Link href="/services" className={linkStyle} onClick={handleClick}>Programs</Link>
+      <Link href="/services" className={linkStyle} onClick={handleClick}>Product & Services</Link>
       <Link href="/team" className={linkStyle} onClick={handleClick}>Team</Link>
       <Link href="/contact" className={linkStyle} onClick={handleClick}>Contact</Link>
     </>
@@ -42,11 +42,11 @@ export default function Navbar() {
           <div className="flex items-center space-x-3">
             <img
               src="/maestrologo.jpeg"
-              alt="TECH Maestro Academy Logo"
+              alt="Tech Maestro Academy Logo"
               className="w-10 h-10 object-contain"
             />
             <span className="text-lg sm:text-xl font-bold">
-              TECH Maestro
+              Tech Maestro
             </span>
           </div>
 

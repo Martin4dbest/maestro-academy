@@ -7,23 +7,23 @@ export default function ContactPage() {
     <main className="min-h-screen pt-24 bg-gradient-to-b from-indigo-50 via-purple-50 to-indigo-100 flex flex-col items-center justify-start px-4 sm:px-6 lg:px-8 pb-16">
 
       {/* Page Title */}
-      <h1 className="text-xl sm:text-2xl md:text-3xl font-serif font-bold mb-10 text-center text-indigo-900 drop-shadow-sm">
+      <h1 className="text-xl sm:text-2xl md:text-2xl font-serif font-bold mb-8 text-center text-indigo-900 drop-shadow-sm">
         Contact Us
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl w-full">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 max-w-5xl w-full">
 
         {/* Contact Info Card */}
-        <div className="bg-gradient-to-br from-indigo-100 via-white to-indigo-50 p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-          <h2 className="text-lg sm:text-xl font-semibold mb-4 text-indigo-900">
+        <div className="bg-gradient-to-br from-indigo-100 via-white to-indigo-50 p-6 sm:p-8 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300">
+          <h2 className="text-base sm:text-lg font-semibold mb-3 text-indigo-900">
             EPO IT-World (Tech Maestro)
           </h2>
 
-          <p className="text-gray-700 text-sm sm:text-base mb-6 leading-relaxed">
+          <p className="text-gray-700 text-[10px] sm:text-[11px] md:text-[12px] mb-4 leading-relaxed">
             Tech Maestro is a platform dedicated to building the next generation of tech champions through digital literacy, computing, and STEM training.
           </p>
 
-          <div className="space-y-3 text-gray-800 text-sm sm:text-base">
+          <div className="space-y-2 text-gray-800 text-[9px] sm:text-[10px] md:text-[11px]">
             <p>
               <strong>📍 Address:</strong> <br />
               65B Coker Road, Ilupeju, Lagos, Nigeria, 23401
@@ -54,14 +54,14 @@ export default function ContactPage() {
         </div>
 
         {/* Contact Form Card */}
-        <div className="bg-gradient-to-br from-purple-50 via-white to-purple-100 p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-          <h2 className="text-lg sm:text-xl font-semibold mb-4 text-indigo-900">
+        <div className="bg-gradient-to-br from-purple-50 via-white to-purple-100 p-6 sm:p-8 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300">
+          <h2 className="text-base sm:text-lg font-semibold mb-3 text-indigo-900">
             Send Us a Message
           </h2>
 
           {/* Formspree Form */}
           <form
-            className="space-y-4"
+            className="space-y-3 sm:space-y-4"
             action="https://formspree.io/f/mlgwbqlv"
             method="POST"
           >
@@ -69,7 +69,7 @@ export default function ContactPage() {
               type="text"
               name="name"
               placeholder="Your Name"
-              className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-blue-700 placeholder-blue-300 text-sm sm:text-base"
+              className="w-full border border-gray-300 p-2 sm:p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-blue-700 placeholder-blue-300 text-[10px] sm:text-[11px] md:text-[12px]"
               required
             />
 
@@ -77,7 +77,7 @@ export default function ContactPage() {
               type="email"
               name="email"
               placeholder="Your Email"
-              className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-blue-700 placeholder-blue-300 text-sm sm:text-base"
+              className="w-full border border-gray-300 p-2 sm:p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-blue-700 placeholder-blue-300 text-[10px] sm:text-[11px] md:text-[12px]"
               required
             />
 
@@ -85,13 +85,13 @@ export default function ContactPage() {
               name="message"
               placeholder="Your Message"
               rows={5}
-              className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-blue-700 placeholder-blue-300 text-sm sm:text-base"
+              className="w-full border border-gray-300 p-2 sm:p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-blue-700 placeholder-blue-300 text-[10px] sm:text-[11px] md:text-[12px]"
               required
             />
 
             <button
               type="submit"
-              className="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 hover:scale-105 transition-all duration-300 w-full sm:w-auto"
+              className="bg-indigo-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-indigo-700 hover:scale-105 transition-all duration-300 w-full sm:w-auto text-[11px] sm:text-[12px] md:text-[13px]"
             >
               Send Message
             </button>

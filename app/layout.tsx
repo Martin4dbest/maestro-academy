@@ -4,8 +4,8 @@ import Footer from "@/components/Footer";
 import type { ReactNode } from "react";
 
 export const metadata = {
-  title: "TECH Maestro Academy",
-  description: "Official website of TECH Maestro Academy",
+  title: "Tech Maestro Academy",
+  description: "Official website of Tech Maestro Academy",
 };
 
 export default function RootLayout({
